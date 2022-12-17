@@ -19,7 +19,7 @@ body {
   transition: 1s;
 }
 .box-card.show {
-  animation: showCard 1s ease-in-out 1 both;
+  animation: showCard 1s linear 1 both;
 }
 @keyframes showCard {
   0% {
